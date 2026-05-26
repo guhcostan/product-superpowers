@@ -20,7 +20,7 @@
 
 ## What is this?
 
-Product Superpowers is a set of 13 composable skills that give your AI agent a complete product management methodology. Instead of jumping straight to writing requirements, your agent runs discovery, validates problems, writes PRDs, breaks them into stories, prioritizes, and plans launches — systematically, every time.
+Product Superpowers is a set of 17 composable skills that give your AI agent a complete product management methodology — including subagent-powered research, review, and visual collaboration. Instead of jumping straight to writing requirements, your agent runs discovery, validates problems, writes PRDs, breaks them into stories, prioritizes, and plans launches — systematically, every time.
 
 ### The pipeline
 
@@ -121,6 +121,18 @@ Verify: **"Tell me about your product superpowers"**
 | `competitive-analysis` | "Competitors", SWOT, market analysis |
 | `product-strategy` | Vision, build vs buy, PMF |
 | `continuous-discovery` | Discovery cadence, OSTs, assumption testing |
+
+</details>
+
+<details>
+<summary><strong>Agentic</strong> — subagent-powered workflows</summary>
+
+| Skill | What triggers it |
+|-------|-----------------|
+| `pm-parallel-research` | Multiple independent research tasks |
+| `pm-artifact-review` | PRD/stories/roadmap ready for review |
+| `pm-visual-workspace` | Show OSTs, story maps, roadmaps visually |
+| `pm-autonomous-execution` | PM plan ready, automatic execution |
 
 </details>
 

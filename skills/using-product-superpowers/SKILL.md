@@ -97,6 +97,15 @@ digraph skill_flow {
 | **product-strategy** | "strategy", "vision", "build vs buy", "PMF" | Vision, mission, build vs buy, PMF assessment |
 | **continuous-discovery** | "discovery process", "OST", "assumption testing", "user research cadence" | Teresa Torres: OSTs, assumption testing, product trio |
 
+### Agentic (subagent-powered workflows)
+
+| Skill | Trigger | Description |
+|-------|---------|-------------|
+| **pm-parallel-research** | Multiple independent research tasks, 3+ competitors to analyze | Dispatch parallel subagents for concurrent PM research |
+| **pm-artifact-review** | PRD/stories/roadmap complete, before sharing with stakeholders | Two-stage review (spec compliance + PM quality) via subagent |
+| **pm-visual-workspace** | Presenting OSTs, story maps, roadmaps, prioritization matrices | Browser-based visual companion for PM diagrams |
+| **pm-autonomous-execution** | PM plan ready, want agentic execution with review gates | Fresh subagent per task + review between each
+
 ## Skill Priority
 
 When multiple skills could apply, use this order:
@@ -105,6 +114,7 @@ When multiple skills could apply, use this order:
 2. **Decision skills second** (prioritization, roadmapping) — these guide WHAT to prioritize
 3. **Execution skills third** (design-handoff, launch-planning, stakeholder-management, product-analytics) — these guide SHIPPING
 4. **Strategy skills fourth** (competitive-analysis, product-strategy, continuous-discovery) — these provide ongoing direction
+5. **Agentic skills** (pm-parallel-research, pm-artifact-review, pm-visual-workspace, pm-autonomous-execution) — these leverage subagents for speed and quality
 
 "Let's build feature X" → product-discovery first, then writing-prd, then user-story-writing.
 "We need to prioritize the backlog" → prioritization.
@@ -119,6 +129,7 @@ When multiple skills could apply, use this order:
 
 **Flexible:** Adapt principles to context.
 - prioritization, roadmapping, design-handoff, launch-planning, stakeholder-management, product-analytics, competitive-analysis, product-strategy, continuous-discovery
+- pm-parallel-research, pm-artifact-review, pm-visual-workspace, pm-autonomous-execution
 
 The skill itself tells you which.
 
