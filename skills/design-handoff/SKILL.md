@@ -1,6 +1,6 @@
 ---
 name: design-handoff
-description: Use when preparing design specifications for engineering handoff. Covers design specs, tokens, states, accessibility, and quality assurance checklist.
+description: Use when preparing design specifications for engineering handoff and quality assurance.
 ---
 
 # Design-to-Development Handoff
@@ -8,10 +8,6 @@ description: Use when preparing design specifications for engineering handoff. C
 Prepare comprehensive design specifications for engineering. Ensure design fidelity by documenting all states, tokens, interactions, edge cases, and accessibility requirements.
 
 **Announce at start:** "I'm using the design-handoff skill to prepare specifications for development."
-
-## Skill Type
-
-**Flexible** — Adapt to your design tooling and team process. Core checklist items are mandatory.
 
 ## What is the Design Handoff?
 
@@ -308,7 +304,7 @@ Before development starts:
 - **Link designs to code** — Every story should know which design version it implements.
 - **Design QA is a required step** — Not a "nice to have." Budget time for it.
 
-## Common Pitfalls
+## Common Mistakes
 
 - Designers not understanding technical constraints (review with engineering early)
 - Missing states in designs (especially error, loading, empty)

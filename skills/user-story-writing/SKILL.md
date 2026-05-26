@@ -1,6 +1,6 @@
 ---
 name: user-story-writing
-description: Use when you have an approved PRD and need to break it into user stories with INVEST criteria, Gherkin acceptance criteria, and epic/story hierarchy.
+description: Use when you have an approved PRD and need to break it into actionable user stories for development.
 ---
 
 # Writing User Stories
@@ -260,7 +260,7 @@ After completing all stories:
 - **Stories deliver user value** — If a story doesn't deliver value to a user or the business, it's probably a task, not a story.
 - **Every state must be designed** — Default, hover, active, focus, disabled, loading, empty, error, success.
 
-## Common Pitfalls
+## Common Mistakes
 
 - Writing stories that are too large (epic disguised as story)
 - Stories without clear acceptance criteria ("I'll know it when I see it")

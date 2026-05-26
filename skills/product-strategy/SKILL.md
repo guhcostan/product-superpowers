@@ -5,13 +5,9 @@ description: Use when defining or refining product vision, mission, strategic tr
 
 # Product Strategy
 
-Define and refine product strategy. Articulate vision and mission. Make strategic trade-off decisions (build vs. buy, sustaining vs. disruptive). Assess product-market fit.
+Define product vision, mission, and strategic trade-offs. Assess product-market fit and make build-vs-buy decisions.
 
 **Announce at start:** "I'm using the product-strategy skill to [purpose]."
-
-## Skill Type
-
-**Flexible** — Strategy is contextual. Frameworks provide structure; judgment fills in the gaps.
 
 ## Checklist
 
@@ -245,7 +241,7 @@ Strategy that isn't understood or supported fails.
 - **Focus over breadth** — Doing one thing exceptionally well beats doing many things adequately.
 - **Strategy without execution is hallucination** — Strategy must translate to roadmap choices.
 
-## Common Pitfalls
+## Common Mistakes
 
 - Confusing vision with strategy (vision = destination, strategy = path)
 - Strategy as a list of features ("our strategy is to build X, Y, Z")

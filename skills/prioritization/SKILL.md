@@ -1,6 +1,6 @@
 ---
 name: prioritization
-description: Use when you need to prioritize or score a list of features, user stories, or initiatives. Applies RICE, ICE, MoSCoW, Kano, and Value/Effort frameworks based on context.
+description: Use when prioritizing or scoring features, user stories, or initiatives against each other.
 ---
 
 # Prioritization
@@ -8,10 +8,6 @@ description: Use when you need to prioritize or score a list of features, user s
 Score and order product backlog items, feature requests, or strategic initiatives using proven prioritization frameworks. Choose the right framework for the context, apply it systematically, and produce a scored, ordered output with documented rationale.
 
 **Announce at start:** "I'm using the prioritization skill to prioritize [what you're prioritizing]."
-
-## Skill Type
-
-**Flexible** — Adapt frameworks to context. Use the right tool for the decision at hand.
 
 ## Checklist
 

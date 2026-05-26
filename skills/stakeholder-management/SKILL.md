@@ -9,10 +9,6 @@ Manage product stakeholder relationships effectively. Write clear status updates
 
 **Announce at start:** "I'm using the stakeholder-management skill to [purpose]."
 
-## Skill Type
-
-**Flexible** — Adapt formats to your company's communication style. Core principles are non-negotiable.
-
 ## Checklist
 
 You MUST create a task for each of these items and complete them in order:

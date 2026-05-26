@@ -1,6 +1,6 @@
 ---
 name: writing-prd
-description: Use when you have an approved discovery document and need to write a Product Requirements Document. Writes PRD in Amazon PR/FAQ format with success metrics, assumptions, and open questions.
+description: Use when you have an approved discovery document and need to write a Product Requirements Document before implementation begins.
 ---
 
 # Writing a Product Requirements Document (PRD)
@@ -242,7 +242,7 @@ Once the PRD is approved, invoke the **user-story-writing** skill to break the P
 - **PRD is a living document** — It will evolve. Capture decisions as they're made.
 - **Show, don't just tell** — Include sketches, diagrams, references to make things concrete
 
-## PRD Pitfalls to Avoid
+## Common Mistakes
 
 - Writing a PRD before discovery is done
 - Over-specifying the solution (telling engineering how to implement)

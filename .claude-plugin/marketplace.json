@@ -1,0 +1,18 @@
+{
+  "name": "product-superpowers-marketplace",
+  "description": "Marketplace for Product Superpowers — PM methodology skills for AI agents",
+  "owner": {
+    "name": "Product Superpowers"
+  },
+  "plugins": [
+    {
+      "name": "product-superpowers",
+      "description": "A complete product management methodology for your AI agents — from discovery through launch",
+      "version": "1.0.0",
+      "source": "./",
+      "author": {
+        "name": "Product Superpowers"
+      }
+    }
+  ]
+}

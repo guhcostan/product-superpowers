@@ -5,13 +5,9 @@ description: Use when creating or updating a product roadmap, defining OKRs, or 
 
 # Roadmapping
 
-Create and maintain outcome-based product roadmaps using the Now/Next/Later format. Define OKRs that connect product work to business outcomes. Communicate direction clearly to stakeholders.
+Create and maintain outcome-based product roadmaps using Now/Next/Later format. Define OKRs that connect work to business outcomes.
 
 **Announce at start:** "I'm using the roadmapping skill to [create/update] the product roadmap."
-
-## Skill Type
-
-**Flexible** — Adapt format to company context. Core principles are non-negotiable.
 
 ## Checklist
 
@@ -232,7 +228,7 @@ Save to: `docs/product-superpowers/roadmaps/YYYY-QN-roadmap.md`
 - **Living document** — Update at least monthly. A stale roadmap is worse than no roadmap.
 - **Connect everything to outcomes** — If an initiative doesn't drive a KR, ask why it's on the roadmap
 
-## Common Pitfalls
+## Common Mistakes
 
 - **Feature-based roadmaps** — Listing features with dates ("Login page by March 15"). Outcome-based is better.
 - **False precision** — Committing to dates 9 months out with low confidence

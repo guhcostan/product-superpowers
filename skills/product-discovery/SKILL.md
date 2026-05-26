@@ -1,6 +1,6 @@
 ---
 name: product-discovery
-description: "You MUST use this before any product work — new features, product ideas, or behavior changes. Understands the problem, maps Jobs-to-be-Done, validates assumptions, and assesses the opportunity before any requirements are written."
+description: Use before any product work — new features, product ideas, or behavior changes. Use before writing PRDs or user stories.
 ---
 
 # Product Discovery

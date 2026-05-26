@@ -1,0 +1,23 @@
+{
+  "name": "product-superpowers",
+  "description": "A complete product management methodology for your AI agents — from discovery through launch",
+  "version": "1.0.0",
+  "author": {
+    "name": "Product Superpowers"
+  },
+  "homepage": "https://github.com/your-org/product-superpowers",
+  "repository": "https://github.com/your-org/product-superpowers",
+  "license": "MIT",
+  "keywords": [
+    "product-management",
+    "skills",
+    "prd",
+    "discovery",
+    "roadmapping",
+    "prioritization",
+    "launch",
+    "analytics",
+    "best-practices",
+    "workflows"
+  ]
+}

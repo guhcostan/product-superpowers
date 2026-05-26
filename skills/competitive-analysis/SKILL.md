@@ -9,10 +9,6 @@ Analyze the competitive landscape systematically. Identify direct and indirect c
 
 **Announce at start:** "I'm using the competitive-analysis skill to analyze [market/competitor]."
 
-## Skill Type
-
-**Flexible** — Choose frameworks based on your goals. Use multiple frameworks for comprehensive analysis.
-
 ## Checklist
 
 You MUST create a task for each of these items and complete them in order:
@@ -269,7 +265,7 @@ Save to: `docs/product-superpowers/competitive-analysis/YYYY-MM-DD-<market>.md`
 - **Continuous, not periodic** — Competitive landscape shifts constantly. Monitor continuously.
 - **Respect your competitors** — Dismissing them blinds you to real threats
 
-## Common Pitfalls
+## Common Mistakes
 
 - Competitor obsession (copying features instead of solving user problems)
 - Confirmation bias (only seeing data that confirms you're better)

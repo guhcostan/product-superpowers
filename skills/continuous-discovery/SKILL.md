@@ -1,6 +1,6 @@
 ---
 name: continuous-discovery
-description: Use when setting up or improving a continuous product discovery practice. Covers Opportunity Solution Trees, assumption testing, product trios, and weekly research cadence based on Teresa Torres' framework.
+description: Use when setting up or improving a continuous product discovery practice with weekly customer interviews.
 ---
 
 # Continuous Discovery
@@ -8,10 +8,6 @@ description: Use when setting up or improving a continuous product discovery pra
 Establish and maintain a continuous product discovery practice. Based on Teresa Torres' framework from "Continuous Discovery Habits" and Product Talk. Discovery is not a phase — it's ongoing.
 
 **Announce at start:** "I'm using the continuous-discovery skill to [purpose]."
-
-## Skill Type
-
-**Flexible** — Adapt to your team size, product maturity, and research capacity. Core practices scale up or down.
 
 ## Core Principles
 
@@ -322,7 +318,7 @@ Update the OST:
 - **Opportunities from users, not imagination** — Every opportunity on the OST must trace back to research.
 - **Discovery should change decisions** — If it doesn't, you're not doing it right.
 
-## Common Pitfalls
+## Common Mistakes
 
 - Solution-first OST building (starting with solutions and working backward to justify them)
 - Discovery as a scheduled phase ("we'll do discovery in Q1, then build in Q2-Q4")

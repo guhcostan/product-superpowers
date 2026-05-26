@@ -1,17 +1,13 @@
 ---
 name: launch-planning
-description: Use when planning a product or feature launch. Covers go-to-market strategy, launch checklists, beta management, rollout strategies, and post-launch monitoring.
+description: Use when planning a product or feature launch and preparing go-to-market execution.
 ---
 
 # Launch Planning
 
-Plan and execute successful product launches. From pre-launch preparation through post-launch monitoring. Covers beta programs, rollout strategies, feature flags, and launch retrospectives.
+Plan and execute successful product launches using staged rollouts, feature flags, beta programs, and go-to-market strategy.
 
 **Announce at start:** "I'm using the launch-planning skill to plan the launch for [feature/product]."
-
-## Skill Type
-
-**Flexible** — Adapt checklists to your launch scale. Smaller features can skip heavy GTM. All launches need the pre/during/post structure.
 
 ## Checklist
 
@@ -270,7 +266,7 @@ Decide in advance when to roll back or deprecate:
 - **Close the feedback loop** — Tell beta users and early adopters what you changed because of their input.
 - **Launch retrospective** — Always. Every launch. No exceptions.
 
-## Common Pitfalls
+## Common Mistakes
 
 - No defined success metrics ("we'll know if it's successful when we see it")
 - Launching to 100% on day one without staged rollout

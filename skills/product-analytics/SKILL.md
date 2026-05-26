@@ -1,6 +1,6 @@
 ---
 name: product-analytics
-description: Use when defining product metrics, designing experiments, analyzing feature adoption, or setting up measurement frameworks. Covers North Star, AARRR, feature adoption, and A/B testing.
+description: Use when defining product metrics, designing experiments, analyzing feature adoption, or setting up measurement frameworks.
 ---
 
 # Product Analytics
@@ -8,10 +8,6 @@ description: Use when defining product metrics, designing experiments, analyzing
 Define metrics that matter. Design experiments that produce valid insights. Measure feature adoption and business impact. Make data-informed product decisions.
 
 **Announce at start:** "I'm using the product-analytics skill to [purpose]."
-
-## Skill Type
-
-**Flexible** — Adapt frameworks to your analytics tooling and data maturity. Core principles are non-negotiable.
 
 ## Checklist
 
@@ -266,7 +262,7 @@ Define in advance when to deprecate a feature:
 - **Qualitative + quantitative** — Data tells you WHAT. User research tells you WHY.
 - **North Star is a compass, not a report card** — It guides decisions, not just measures past performance.
 
-## Common Pitfalls
+## Common Mistakes
 
 - Tracking vanity metrics (page views, downloads) instead of actionable metrics (activation, retention)
 - No defined success metrics before shipping ("we'll figure out if it worked later")
