@@ -22,25 +22,13 @@
 
 Product Superpowers is a set of 13 composable skills that give your AI agent a complete product management methodology. Instead of jumping straight to writing requirements, your agent runs discovery, validates problems, writes PRDs, breaks them into stories, prioritizes, and plans launches — systematically, every time.
 
----
+### The pipeline
 
-```mermaid
-flowchart LR
-    A[💡 Idea] --> B[🔍 Discovery]
-    B --> C[📄 PRD]
-    C --> D[📋 Stories]
-    D --> E[🎯 Prioritize]
-    E --> F[🚀 Launch]
-    
-    S1[📊 Roadmap]
-    S2[📈 Analytics]
-    S3[👥 Stakeholders]
-    S4[⚔️ Competitive]
-    S5[🧭 Strategy]
-    S6[🔄 Continuous Discovery]
 ```
-
----
+Idea  →  Discovery  →  PRD  →  Stories  →  Prioritize  →  Launch
+          ↕             ↕        ↕            ↕               ↕
+      Roadmap   ·   Analytics  ·  Stakeholders  ·  Competitive  ·  Strategy  ·  Continuous Discovery
+```
 
 ## Why this?
 
