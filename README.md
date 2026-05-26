@@ -59,7 +59,23 @@ Covers the complete Product Development Life Cycle — from ideation to commerci
 
 ## Quick Start
 
-### Claude Code
+### Claude Cowork (recommended for PMs)
+
+[Claude Cowork](https://claude.com/product/cowork) is Anthropic's AI agent for knowledge work — no terminal needed. It runs in the Claude desktop app, reads your files, opens your browser, and completes PM tasks autonomously.
+
+1. Download the [Claude desktop app](https://claude.com/download) and sign in
+2. Open Claude Cowork (switch from Chat to Cowork in the desktop app)
+3. Install the plugin:
+
+```
+/plugin install product-superpowers@git+https://github.com/guhcostan/product-superpowers.git
+```
+
+4. Verify: **"What's in my product superpowers?"**
+
+> **Why Cowork for PMs?** Unlike Claude Code (terminal, coding-focused), Cowork works in the desktop app — open your PRDs in Notion, research competitors in Chrome, pull data from spreadsheets, and Claude orchestrates it all. It's built for the kind of work PMs actually do.
+
+### Claude Code (terminal)
 
 ```bash
 /plugin marketplace add obra/superpowers-marketplace
@@ -183,8 +199,8 @@ The skills produce structured outputs that maps naturally to any tool. Specific 
 **What PM frameworks does it use?**
 Amazon PR/FAQ, SVPG Opportunity Assessment, Teresa Torres' OSTs, Shreyas Doshi's frameworks, RICE/ICE/MoSCoW/Kano prioritization, JTBD, Gherkin acceptance criteria, and more.
 
-**Can I use this with Claude Code AND OpenCode?**
-Yes. Skills work across both. See Quick Start for install instructions.
+**Can I use this with Claude Cowork, Claude Code, or OpenCode?**
+Product Superpowers is built for Claude Cowork (recommended for PMs — desktop app, no terminal). Also works in Claude Code (terminal) and OpenCode. See Quick Start for each.
 
 ---
 
