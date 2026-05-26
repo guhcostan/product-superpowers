@@ -63,15 +63,18 @@ Covers the complete Product Development Life Cycle — from ideation to commerci
 
 [Claude Cowork](https://claude.com/product/cowork) is Anthropic's AI agent for knowledge work — no terminal needed. It runs in the Claude desktop app, reads your files, opens your browser, and completes PM tasks autonomously.
 
-1. Download the [Claude desktop app](https://claude.com/download) and sign in
-2. Open Claude Cowork (switch from Chat to Cowork in the desktop app)
-3. Install the plugin:
+**Install via Git (local):**
 
-```
-/plugin install product-superpowers@git+https://github.com/guhcostan/product-superpowers.git
+```bash
+# Clone to your local machine
+git clone https://github.com/guhcostan/product-superpowers.git ~/product-superpowers
 ```
 
-4. Verify: **"What's in my product superpowers?"**
+Then in the Claude Desktop app:
+1. Switch to the **Cowork** tab
+2. Click **Customize** in the left sidebar
+3. Click **Upload plugin** and select the `~/product-superpowers` folder
+4. Verify: ask Claude **"What skills do you have for product management?"**
 
 > **Why Cowork for PMs?** Unlike Claude Code (terminal, coding-focused), Cowork works in the desktop app — open your PRDs in Notion, research competitors in Chrome, pull data from spreadsheets, and Claude orchestrates it all. It's built for the kind of work PMs actually do.
 
