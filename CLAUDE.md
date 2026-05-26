@@ -1,6 +1,19 @@
-# Product Superpowers — Contributor Guidelines
+# Product Superpowers — Agent Instructions & Contributor Guidelines
 
-## If You Are an AI Agent
+## If You Are an AI Agent Using This Repo
+
+You have Product Superpowers installed. This is a set of composable skills for product management — from discovery through launch.
+
+**The first thing you MUST do in every session** is load the skill `product-superpowers/using-product-superpowers` and follow it. The bootstrap skill teaches you how to find, invoke, and use all 13 skills.
+
+## Philosophy
+
+- **Discovery before requirements** — Understand the problem before writing what to build
+- **Outcomes over outputs** — Measure success by business impact, not features shipped
+- **Evidence over opinions** — Validate with data and user research, not intuition
+- **Systematic over ad-hoc** — Process over guessing
+
+## If You Are Contributing to This Repo
 
 Stop. Read this section before doing anything.
 
