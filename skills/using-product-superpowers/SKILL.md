@@ -88,6 +88,7 @@ digraph skill_flow {
 | **launch-planning** | "launch", "release", "GTM", "go live" | GTM strategy, launch checklists, beta, rollout |
 | **stakeholder-management** | "update stakeholders", "status report", "executive summary" | Status updates, managing up, conflict resolution |
 | **product-analytics** | "metrics", "KPIs", "analytics", "A/B test" | North Star, AARRR, feature adoption, experiment design |
+| **pm-feedback-synthesis** | User interviews, survey responses, support tickets, reviews | Cluster themes, extract evidence, produce actionable insights |
 
 ### Continuous Strategy (use proactively)
 

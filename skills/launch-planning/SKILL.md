@@ -25,264 +25,142 @@ You MUST create a task for each of these items and complete them in order:
 
 ## Step 1: Define Launch Goals and Success Criteria
 
-Answer before anything else: "When the launch is over, how do we know it worked?"
-
 | Question | Example Answer |
 |----------|---------------|
 | Primary success metric | Feature adopted by 30% of target users within 30 days |
-| Secondary metrics | NPS increases by 5 points, support tickets stay below 50/week |
-| Counter metrics (guardrails) | Core flow conversion does not decrease, app crash rate stays below 0.1% |
-| Timeframe for evaluation | 30 days post-launch, with 7/14/30-day checkpoints |
+| Secondary metrics | NPS increases 5 points, support tickets stay below 50/week |
+| Counter metrics (guardrails) | Core flow conversion does not decrease, crash rate below 0.1% |
+| Evaluation timeframe | 30 days post-launch, with 7/14/30-day checkpoints |
 
 ## Step 2: Define Target Audience and Launch Segments
-
-Who gets access, and when?
-
-### Segment Definition
 
 | Segment | Who | % of Users | When |
 |---------|-----|-----------|------|
 | Internal alpha | Company employees | 100% of employees | 4 weeks before launch |
-| Closed beta | 50 invited power users | <1% | 2-3 weeks before launch |
-| Staged rollout — Phase 1 | New users (low risk) | 5% | Launch day |
-| Staged rollout — Phase 2 | All users in US | 25% | Launch + 3 days |
-| Staged rollout — Phase 3 | All users | 100% | Launch + 7 days |
+| Closed beta | Invited power users (50) | <1% | 2–3 weeks before launch |
+| Phase 1 rollout | New users (low risk) | 5% | Launch day |
+| Phase 2 rollout | All users in primary region | 25% | Launch + 3 days |
+| Phase 3 rollout | All users | 100% | Launch + 7 days |
 
-### User Communication Plan
+**User communication plan:**
 
 | Touchpoint | Timing | Channel | Message |
 |------------|--------|---------|---------|
 | Beta invite | 3 weeks before | Email | "You're invited to try our new..." |
 | Coming soon | 1 week before | In-app banner | "A new way to [benefit] is coming" |
-| Launch announcement | Launch day | Email, blog, social | "Introducing [feature] — now you can..." |
+| Launch | Launch day | Email, blog, social | "Introducing [feature] — now you can..." |
 | Follow-up | Launch + 7 days | In-app tooltip | "Have you tried [feature] yet?" |
 
 ## Step 3: Plan the Go-to-Market Strategy
 
-### GTM Elements
-
 | Element | Key Questions |
 |---------|--------------|
 | **Pricing** | Free? Premium add-on? Included in existing plan? New tier? |
-| **Positioning** | How do we describe this against competitors? What's the one-sentence value prop? |
-| **Channels** | Where will we promote this? (in-app, email, blog, social, PR, paid ads, events) |
+| **Positioning** | How do we describe this against competitors? One-sentence value prop? |
+| **Channels** | In-app, email, blog, social, PR, paid ads, events? |
 | **Sales enablement** | Do sales teams need training? Pitch decks? Battle cards? |
-| **Support readiness** | Is support trained? Are help docs ready? Expected ticket volume? |
-| **Legal/compliance** | Any regulatory approvals? Terms of service updates? Privacy review? |
+| **Support readiness** | Is support trained? Help docs ready? Expected ticket volume? |
+| **Legal/compliance** | Regulatory approvals? Terms of service updates? Privacy review? |
 
-### Launch Messaging Framework
-
-```
-For [target audience]
-Who [have this problem]
-[Product/feature name] is a [category]
-That [key benefit]
-Unlike [alternatives]
-Our product [unique differentiator]
-```
+**Messaging framework:** For [target audience] who [have this problem], [product/feature] is a [category] that [key benefit]. Unlike [alternatives], our product [unique differentiator].
 
 ## Step 4: Pre-Launch Checklist
 
-### 4-8 Weeks Before Launch
-
-- [ ] Launch goals and success metrics defined
-- [ ] Target audience and segments identified
+**4–8 Weeks Before:**
+- [ ] Launch goals and success metrics defined; target segments identified
 - [ ] Messaging and positioning finalized
-- [ ] Marketing collateral created:
-  - [ ] Landing page
-  - [ ] Blog post draft
-  - [ ] Email sequence (announcement, follow-up, re-engagement)
-  - [ ] Social media posts
-  - [ ] Product screenshots/screen recordings/GIFs
-  - [ ] Help documentation and FAQs
-- [ ] Sales enablement materials prepared (pitch deck, one-pager, battle cards)
-- [ ] Support team trained on the feature
-- [ ] Analytics and tracking instrumented (all success metrics measurable)
-- [ ] Monitoring dashboard created (adoption, errors, performance, support tickets)
-- [ ] Rollback plan defined and tested
-- [ ] Legal and compliance review completed
-- [ ] Internal company announcement ready
-- [ ] Beta program designed and recruitment started
+- [ ] Marketing collateral created: landing page, blog post draft, email sequence, social posts, screenshots/GIFs, help docs and FAQs
+- [ ] Sales enablement materials prepared; support team trained
+- [ ] Analytics and tracking instrumented; monitoring dashboard created
+- [ ] Rollback plan defined and tested; legal/compliance review completed
+- [ ] Internal announcement ready; beta program recruitment started
 
-### 1 Week Before
-
-- [ ] Feature flags configured and tested
-- [ ] All environments verified (staging, production)
-- [ ] Load testing completed (if applicable)
-- [ ] War room schedule set (who's on call during launch)
-- [ ] Communication channels set up (Slack channel, incident response)
-- [ ] Final stakeholder sign-off obtained
-- [ ] Launch day runbook written (who does what, in what order)
+**1 Week Before:**
+- [ ] Feature flags configured and tested; all environments verified (staging, production)
+- [ ] Load testing completed; war room schedule set (who's on call)
+- [ ] Communication channels set up (Slack, incident response)
+- [ ] Final stakeholder sign-off obtained; launch day runbook written
 
 ## Step 5: Design the Beta Program
 
-### Beta Types
-
 | Type | Users | Purpose | Duration |
 |------|-------|---------|----------|
-| **Internal Alpha** | Company employees | Dogfooding, catch obvious bugs | 1-2 weeks |
-| **Closed Beta** | Invited customers (20-200) | Controlled testing, deep feedback | 2-4 weeks |
-| **Open Beta** | Anyone who opts in | Scale testing, broad feedback | 2-8 weeks |
+| **Internal Alpha** | Company employees | Dogfooding, catch obvious bugs | 1–2 weeks |
+| **Closed Beta** | Invited customers (20–200) | Controlled testing, deep feedback | 2–4 weeks |
+| **Open Beta** | Anyone who opts in | Scale testing, broad feedback | 2–8 weeks |
 
-### Beta Feedback Collection
+**Feedback collection:** in-app widget, NPS/CSAT surveys after key actions, 5–10 beta user interviews, analytics on actual behavior. Triage feedback as bug / UX issue / feature request / confusion.
 
-- **In-app feedback**: Widget or button for quick reactions
-- **Surveys**: Short NPS or CSAT after key actions
-- **Interviews**: 5-10 beta users for in-depth conversations
-- **Analytics**: Track what beta users actually do (not just what they say)
-- **Feedback triage**: Categorize as bug / UX issue / feature request / confusion
-
-### Beta Success Criteria
-
-- [ ] X% of beta users try the feature
-- [ ] Y% of those continue using it after first try
-- [ ] Critical bugs resolved (P0/P1 fixed)
-- [ ] NPS from beta users is at or above product average
-- [ ] Support load is within expected range
-- [ ] No showstopper issues remain
+**Beta success criteria:** X% of beta users try the feature, Y% continue using it after first try, critical bugs resolved, NPS at or above product average, support load within expected range, no showstopper issues.
 
 ## Step 6: Choose Rollout Strategy
 
-### Rollout Options
-
-| Strategy | How It Works | Best For | Risk Level |
-|----------|-------------|----------|-----------|
+| Strategy | How It Works | Best For | Risk |
+|----------|-------------|----------|------|
 | **Phased/Staged** | 1% → 5% → 25% → 50% → 100% | Most features | Low |
 | **Feature Flags** | Toggle on/off per user segment | Everything (recommended) | Lowest |
 | **Canary** | Route % of traffic to new version | Backend changes, API updates | Low |
 | **Blue-Green** | Switch between two environments | Infrastructure changes | Low |
 | **Big Bang** | Everyone at once | Urgent fixes, compliance | High |
 
-### Feature Flag Strategy (Recommended)
+**Feature flag types:** release toggle (who sees it), experiment toggle (A/B test), ops toggle (kill switch), permission toggle (entitlement-based access).
 
-Types of flags to use:
+**Staged rollout schedule:**
 
-| Flag Type | Purpose | Example |
-|-----------|---------|---------|
-| **Release toggle** | Control who sees the feature | `new-onboarding-enabled` |
-| **Experiment toggle** | A/B test variants | `onboarding-variant-a` |
-| **Ops toggle** | Kill switch for emergencies | `recommendations-engine-kill` |
-| **Permission toggle** | Entitlement-based access | `premium-analytics-access` |
-
-### Staged Rollout Schedule
-
-| Phase | % of Users | Duration | Check Before Proceeding |
-|-------|-----------|----------|------------------------|
-| 1 | 1% | 1-2 hours | Error rate < 0.1%, no critical bugs |
+| Phase | % of Users | Duration | Gate |
+|-------|-----------|----------|------|
+| 1 | 1% | 1–2 hours | Error rate < 0.1%, no critical bugs |
 | 2 | 5% | 24 hours | Metrics stable, adoption positive |
-| 3 | 25% | 48 hours | Support tickets within range, metrics healthy |
+| 3 | 25% | 48 hours | Support tickets within range |
 | 4 | 50% | 24 hours | All systems nominal |
 | 5 | 100% | — | Launch complete |
 
 ## Step 7: Launch Week Checklist
 
-### Launch Day
+**Launch Day:** Deploy to production (or flip feature flags). Activate marketing: announcement email, blog post, social media, in-app messaging. War room active (monitor metrics, errors, support). Internal announcement sent. Sales/support notified.
 
-- [ ] Deploy to production (or flip feature flags)
-- [ ] Activate marketing campaigns:
-  - [ ] Send announcement email
-  - [ ] Publish blog post
-  - [ ] Post on social media
-  - [ ] Update in-app messaging
-- [ ] War room active (monitor metrics, errors, support tickets)
-- [ ] Internal announcement sent
-- [ ] Sales/support notified of go-live
-
-### Launch Week
-
-- [ ] Daily standup with launch team
-- [ ] Monitor dashboards continuously first 48 hours
-- [ ] Triage incoming bugs and feedback
-- [ ] Fix critical issues immediately
-- [ ] Adjust messaging if adoption is lower than expected
-- [ ] Escalate blockers to leadership
+**Launch Week:** Daily standup with launch team. Monitor dashboards continuously first 48 hours. Triage incoming bugs and feedback. Fix critical issues immediately. Adjust messaging if adoption is low. Escalate blockers to leadership.
 
 ## Step 8: Post-Launch Checklist
 
-### 24-Hour Check
-
-- [ ] Error rates normal?
-- [ ] Core metrics stable (no regressions)?
-- [ ] Support tickets within expected range?
-
-### 48-Hour Check
-
-- [ ] Adoption tracking toward target?
-- [ ] User feedback trending positive or negative?
-- [ ] Any unexpected usage patterns?
-
-### 1-Week Check
-
-- [ ] Adoption patterns emerging? Which segments are adopting fastest?
-- [ ] Does the feature work for users who adopted? (retention, repeat use)
-- [ ] Any UX issues or confusion emerging from user feedback?
-- [ ] Adjustments needed to messaging or onboarding?
-
-### 2-Week Check
-
-- [ ] Deep dive into user behavior. Segment by persona, plan, region.
-- [ ] Interview 5-10 users who adopted AND 5-10 who didn't.
-- [ ] Prepare findings for stakeholder update.
-
-### 30-Day Retrospective
-
-- [ ] Did we hit our primary success metric?
-- [ ] What surprised us (positive and negative)?
-- [ ] What would we do differently on the next launch?
-- [ ] What did we learn about our users?
-- [ ] What's the next iteration?
-
-### 90-Day Health Check
-
-- [ ] Is the feature being retained? Or was it novelty?
-- [ ] Is it driving the business outcomes we expected?
-- [ ] Should we invest more, maintain, or consider deprecation?
+| Checkpoint | Verify |
+|------------|--------|
+| **24-hour** | Error rates normal? Core metrics stable? Support tickets within expected range? |
+| **48-hour** | Adoption tracking toward target? User feedback trending positive? Unexpected usage patterns? |
+| **1-week** | Which segments adopting fastest? Retention/repeat use healthy? UX issues emerging? |
+| **2-week** | Deep dive by persona/plan/region. Interview 5–10 adopters AND 5–10 non-adopters. |
+| **30-day retrospective** | Hit primary metric? What surprised us? What would we do differently? What's the next iteration? |
+| **90-day health check** | Feature being retained or was it novelty? Driving expected outcomes? Invest more, maintain, or deprecate? |
 
 ## Step 9: Define Kill Criteria
 
-Decide in advance when to roll back or deprecate:
+**Roll back** (immediate) if: error rate exceeds X%, core conversion drops >Y%, data loss/security incident, critical P0 bug affecting >Z% of users.
 
-### Roll Back Criteria (immediate action required)
-
-- [ ] Error rate exceeds X% (e.g., 1%)
-- [ ] Core conversion metric drops by more than Y% (e.g., 5%)
-- [ ] Data loss or security incident
-- [ ] Critical P0 bug affecting >Z% of users
-
-### Deprecation Criteria (evaluate after launch window)
-
-- [ ] Adoption below X% at 30 days
-- [ ] Feature retention below Y% at 60 days
-- [ ] Maintenance cost exceeds value delivered
-- [ ] User satisfaction (NPS/CSAT) significantly lower for feature users
+**Consider deprecation** if: adoption below X% at 30 days, feature retention below Y% at 60 days, maintenance cost exceeds value, user satisfaction significantly lower.
 
 ## Key Principles
 
 - **Decouple deployment from release** — Use feature flags. Ship code anytime, release when ready.
-- **Launch is a process, not a moment** — Pre-launch starts weeks before. Post-launch continues for months.
+- **Launch is a process, not a moment** — Pre-launch starts weeks before. Post-launch continues months.
 - **Progressive exposure** — Start small, monitor, expand. Never 100% at once unless forced.
 - **Kill criteria before launch** — Know what "failure" looks like before you ship.
 - **War room discipline** — During launch, monitoring is someone's full-time job.
-- **Close the feedback loop** — Tell beta users and early adopters what you changed because of their input.
+- **Close the feedback loop** — Tell beta users what you changed because of their input.
 - **Launch retrospective** — Always. Every launch. No exceptions.
 
 ## Common Mistakes
 
-- No defined success metrics ("we'll know if it's successful when we see it")
+- No defined success metrics ("we'll know it's successful when we see it")
 - Launching to 100% on day one without staged rollout
-- No rollback plan ("we're sure it will work")
-- Analytics not instrumented before launch (can't measure what you didn't track)
-- Support team not trained (drowning in tickets they can't answer)
-- No war room (everyone assumes someone else is watching)
+- No rollback plan; analytics not instrumented before launch
+- Support team not trained; no war room (everyone assumes someone else is watching)
 - Feature flags left in code forever (flag debt)
 - Marketing launches before the feature is actually available to users
-- Ignoring early feedback because "the metrics will catch up"
-- No kill criteria (keeping features that don't work because no one decided to deprecate)
+- Ignoring early feedback; no kill criteria (zombie features accumulate)
 
 ## Key References
 
 - LaunchDarkly feature management and feature flag best practices
-- "Loved" by Martina Lauchengco (SVPG book on product marketing)
+- "Loved" by Martina Lauchengco (product marketing)
 - "Obviously Awesome" by April Dunford (product positioning)
 - "Product-Led Growth" by Wes Bush
-- ProductPlan GTM Strategy templates

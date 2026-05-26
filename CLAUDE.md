@@ -4,7 +4,7 @@
 
 You have Product Superpowers installed. This is a set of composable skills for product management — from discovery through launch.
 
-**The first thing you MUST do in every session** is load the skill `product-superpowers/using-product-superpowers` and follow it. The bootstrap skill teaches you how to find, invoke, and use all 17 skills.
+**The first thing you MUST do in every session** is load the skill `product-superpowers/using-product-superpowers` and follow it. The bootstrap skill teaches you how to find, invoke, and use all 18 skills.
 
 ## Philosophy
 
