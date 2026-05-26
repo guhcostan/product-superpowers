@@ -30,6 +30,20 @@ Idea  →  Discovery  →  PRD  →  Stories  →  Prioritize  →  Launch
       Roadmap   ·   Analytics  ·  Stakeholders  ·  Competitive  ·  Strategy  ·  Continuous Discovery
 ```
 
+## Full PDLC coverage
+
+Covers the complete Product Development Life Cycle — from ideation to commercialization:
+
+| PDLC Stage | Skill |
+|-----------|-------|
+| 1. Ideation | `product-discovery` — JTBD, user interviews, problem validation |
+| 2. Idea screening | `prioritization` — RICE, ICE, MoSCoW scoring |
+| 3. Concept testing | `continuous-discovery` — assumption testing, concierge MVP |
+| 4. Business analysis | `product-strategy` + `competitive-analysis` — PMF, SWOT, build vs buy |
+| 5. Product design | `design-handoff` + `user-story-writing` — tokens, states, INVEST, Gherkin |
+| 6. Market testing | `launch-planning` — beta programs, staged rollout |
+| 7. Commercialization | `launch-planning` — GTM strategy, launch checklists |
+
 ## Why this?
 
 | If you... | Your agent will... |
