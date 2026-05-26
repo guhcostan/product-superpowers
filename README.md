@@ -1,130 +1,182 @@
-# Product Superpowers
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner.png">
+    <img src="assets/banner.png" width="100%" alt="Product Superpowers banner">
+  </picture>
+</p>
 
-Product Superpowers is a complete product management methodology for your AI agents, built on top of a set of composable skills and initial instructions that make sure your agent uses them — from discovery through launch.
+<p align="center">
+  <strong>Give your AI agent a PM brain.</strong>
+</p>
 
-## Quickstart
+<p align="center">
+  <a href="#quick-start">Quick Start</a> ·
+  <a href="#how-it-works">How It Works</a> ·
+  <a href="#skills">Skills</a> ·
+  <a href="#faq">FAQ</a>
+</p>
 
-Give your agent Product Superpowers: [Claude Code](#claude-code), [OpenCode](#opencode).
+---
 
-## How It Works
+## What is this?
 
-It starts from the moment you bring a new product idea or feature request. Your agent *doesn't* jump into writing a PRD. Instead, it steps back and runs discovery — understanding the problem, interviewing users (or you), mapping Jobs-to-be-Done, and validating assumptions before anything gets committed to requirements.
+Product Superpowers is a set of 13 composable skills that give your AI agent a complete product management methodology. Instead of jumping straight to writing requirements, your agent runs discovery, validates problems, writes PRDs, breaks them into stories, prioritizes, and plans launches — systematically, every time.
 
-Once discovery is done and you've signed off, your agent writes a PRD in Amazon PR/FAQ format — a customer-focused press release plus FAQs for both customers and internal stakeholders. You review it in sections.
+---
 
-After the PRD is approved, your agent breaks it into user stories with INVEST criteria and Gherkin acceptance criteria, prioritized and organized into epics.
+```mermaid
+flowchart LR
+    A[💡 Idea] --> B[🔍 Discovery]
+    B --> C[📄 PRD]
+    C --> D[📋 Stories]
+    D --> E[🎯 Prioritize]
+    E --> F[🚀 Launch]
+    
+    S1[📊 Roadmap]
+    S2[📈 Analytics]
+    S3[👥 Stakeholders]
+    S4[⚔️ Competitive]
+    S5[🧭 Strategy]
+    S6[🔄 Continuous Discovery]
+```
 
-Supporting skills handle roadmapping, stakeholder communication, launch planning, analytics, competitive analysis, and continuous discovery — all triggered automatically when the context is right.
+---
 
-And because the skills trigger automatically, you don't need to do anything special. Your PM agent just has Product Superpowers.
+## Why this?
 
-## Installation
+| If you... | Your agent will... |
+|-----------|-------------------|
+| Have an idea for a feature | Run discovery first — JTBD, user interviews, opportunity assessment. Never jumps to solution. |
+| Need a PRD written | Outputs Amazon PR/FAQ format — press release + external FAQ + internal FAQ. Metrics, assumptions, constraints, all included. |
+| Have a PRD ready | Breaks it into INVEST-validated user stories with Gherkin acceptance criteria. Every state documented. |
+| Need to prioritize | Scores with RICE, segments with MoSCoW, classifies with Kano. Outputs ordered list with rationale. |
+| Are about to launch | Produces pre/during/post-launch checklists, beta plan, rollout strategy, kill criteria, and post-launch rituals. |
+| Want to keep discovery alive | Sets up weekly interview cadence, Opportunity Solution Trees, and assumption testing — Teresa Torres framework. |
+
+---
+
+## Quick Start
 
 ### Claude Code
-
-Product Superpowers is available via the Superpowers marketplace:
 
 ```bash
 /plugin marketplace add obra/superpowers-marketplace
 /plugin install product-superpowers@superpowers-marketplace
 ```
 
-Or install directly from GitHub:
-
-```bash
-/plugin install product-superpowers@git+https://github.com/your-org/product-superpowers.git
-```
-
 ### OpenCode
 
-Add to your `opencode.json` plugin array:
+Add to `opencode.json`:
 
 ```json
-{
-  "plugin": ["product-superpowers@git+https://github.com/your-org/product-superpowers.git"]
-}
+{ "plugin": ["product-superpowers@git+https://github.com/guhcostan/product-superpowers.git"] }
 ```
 
-Or follow the detailed install guide at `.opencode/INSTALL.md`.
+Verify: **"Tell me about your product superpowers"**
 
-## The Core Workflow
+---
 
-1. **product-discovery** — Activates before any product work. Understands the problem through JTBD, user interviews, and opportunity assessment. Validates before building.
+## Skills
 
-2. **writing-prd** — Activates after discovery approval. Writes PRD in Amazon PR/FAQ format with success metrics, assumptions, constraints, and open questions.
+<details>
+<summary><strong>Core Workflow</strong> — the primary pipeline</summary>
 
-3. **user-story-writing** — Activates after PRD approval. Breaks PRD into user stories with INVEST criteria, Gherkin acceptance criteria, and epic/story hierarchy.
+| Skill | What triggers it |
+|-------|-----------------|
+| `product-discovery` | New idea, feature request, "build X" |
+| `writing-prd` | Discovery approved, need requirements |
+| `user-story-writing` | PRD approved, need development stories |
 
-4. **prioritization** — Scores and orders backlog items using RICE, ICE, MoSCoW, or Kano.
+</details>
 
-5. **roadmapping** — Maintains outcome-based roadmap with Now/Next/Later and OKRs.
+<details>
+<summary><strong>Decision Making</strong> — what to build and when</summary>
 
-6. **design-handoff** — Prepares design specs for engineering with tokens, states, accessibility, and QA checklist.
+| Skill | What triggers it |
+|-------|-----------------|
+| `prioritization` | "Prioritize", backlog grooming |
+| `roadmapping` | "Roadmap", OKRs, quarterly planning |
 
-7. **stakeholder-management** — Status updates, executive summaries, managing up, conflict resolution.
+</details>
 
-8. **launch-planning** — GTM strategy, pre/during/post-launch checklists, beta management, rollout strategies.
+<details>
+<summary><strong>Execution</strong> — shipping with quality</summary>
 
-9. **product-analytics** — North Star metric, AARRR funnel, feature adoption, A/B testing.
+| Skill | What triggers it |
+|-------|-----------------|
+| `design-handoff` | "Handoff", design specs for engineering |
+| `launch-planning` | "Launch", "release", "GTM" |
+| `stakeholder-management` | Status updates, exec summaries |
+| `product-analytics` | Metrics, KPIs, A/B tests |
 
-10. **competitive-analysis** — SWOT, Porter's Five Forces, feature comparison matrix.
+</details>
 
-11. **product-strategy** — Vision, mission, build vs buy, product-market fit assessment.
+<details>
+<summary><strong>Continuous Strategy</strong> — the long game</summary>
 
-12. **continuous-discovery** — Teresa Torres framework: Opportunity Solution Trees, assumption testing, product trio.
+| Skill | What triggers it |
+|-------|-----------------|
+| `competitive-analysis` | "Competitors", SWOT, market analysis |
+| `product-strategy` | Vision, build vs buy, PMF |
+| `continuous-discovery` | Discovery cadence, OSTs, assumption testing |
 
-**The agent checks for relevant skills before any PM task.** Mandatory workflows, not suggestions.
+</details>
 
-## What's Inside
+<details>
+<summary><strong>Meta</strong></summary>
 
-### Skills Library
+| Skill | What triggers it |
+|-------|-----------------|
+| `using-product-superpowers` | Every session — bootstrap |
 
-**Core Workflow**
-- **product-discovery** — Problem understanding, JTBD, user interviews, opportunity assessment
-- **writing-prd** — Amazon PR/FAQ, SVPG Product Brief, Shreyas Doshi frameworks
-- **user-story-writing** — INVEST criteria, Gherkin acceptance criteria, epic breakdown
+</details>
 
-**Decision Making**
-- **prioritization** — RICE, ICE, MoSCoW, Kano, Value/Effort matrix
-- **roadmapping** — Outcome-based roadmaps, Now/Next/Later, OKRs
+---
 
-**Execution**
-- **design-handoff** — Design specs, tokens, states, accessibility, design QA
-- **launch-planning** — GTM strategy, launch checklists, beta, rollout
-- **stakeholder-management** — Status updates, executive summaries, managing up
-- **product-analytics** — North Star, AARRR, feature adoption, A/B testing
+## How It Works
 
-**Continuous Strategy**
-- **competitive-analysis** — SWOT, Porter's Five Forces, feature comparison
-- **product-strategy** — Vision, build vs buy, PMF assessment
-- **continuous-discovery** — Opportunity Solution Trees, assumption testing, product trio
+1. **You say "build X"** → Agent loads `product-discovery`. Asks you JTBD questions. Maps opportunities. Validates before any requirements.
 
-**Meta**
-- **using-product-superpowers** — Introduction to the skills system
+2. **You approve discovery** → Agent loads `writing-prd`. Writes a press release, customer FAQ, internal FAQ. Defines metrics and scope.
+
+3. **You approve the PRD** → Agent loads `user-story-writing`. Breaks it into INVEST stories with Given-When-Then acceptance criteria.
+
+4. **Parallel support skills** trigger as needed: `prioritization` when you ask what to build first, `roadmapping` when you update the plan, `launch-planning` when you're close to shipping, `product-analytics` when you define metrics.
+
+---
 
 ## Philosophy
 
 - **Discovery before requirements** — Understand the problem before writing what to build
 - **Outcomes over outputs** — Measure success by business impact, not features shipped
-- **Evidence over opinions** — Validate with data and user research, not intuition
+- **Evidence over opinions** — Validate with data and user research
 - **Systematic over ad-hoc** — Process over guessing
-- **Complexity reduction** — Ruthlessly descope; YAGNI applies to product too
 
-## Key References
+---
 
-Product Superpowers draws from established product management thinking:
+## FAQ
 
-- Marty Cagan (SVPG) — "Inspired," "Empowered," product operating model
-- Teresa Torres — "Continuous Discovery Habits," Opportunity Solution Trees
-- Shreyas Doshi — PM craft, strategic thinking frameworks
-- Amazon — PR/FAQ Working Backwards methodology
-- Clayton Christensen — Jobs-to-be-Done, Innovator's Dilemma
-- John Doerr — OKRs ("Measure What Matters")
-- Melissa Perri — "Escaping the Build Trap," outcome over output
-- Rob Fitzpatrick — "The Mom Test," customer interview methodology
-- April Dunford — "Obviously Awesome," product positioning
-- Strategyzer — Business Model Canvas, Value Proposition Canvas
+**Does this replace a human PM?**
+No. Product Superpowers automates the systematic parts of PM work — discovery structure, PRD formatting, story breakdown. Strategic judgment, taste, and deep user empathy remain human.
 
-## License
+**Do I have to follow the full pipeline?**
+The three core skills (discovery → PRD → stories) have hard gates — they won't let you skip steps. All other skills are flexible and invoked on demand.
 
-MIT License — see LICENSE file for details.
+**Does this work with Jira, Linear, Notion?**
+The skills produce structured outputs that maps naturally to any tool. Specific integrations come later.
+
+**What PM frameworks does it use?**
+Amazon PR/FAQ, SVPG Opportunity Assessment, Teresa Torres' OSTs, Shreyas Doshi's frameworks, RICE/ICE/MoSCoW/Kano prioritization, JTBD, Gherkin acceptance criteria, and more.
+
+**Can I use this with Claude Code AND OpenCode?**
+Yes. Skills work across both. See Quick Start for install instructions.
+
+---
+
+## References
+
+Product Superpowers draws from: Marty Cagan (SVPG), Teresa Torres, Shreyas Doshi, Amazon PR/FAQ, Clayton Christensen (JTBD), John Doerr (OKRs), Melissa Perri, Rob Fitzpatrick (The Mom Test), April Dunford, and Strategyzer.
+
+---
+
+MIT · [Contribute](https://github.com/guhcostan/product-superpowers) · [Issues](https://github.com/guhcostan/product-superpowers/issues)
